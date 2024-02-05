@@ -124,6 +124,10 @@ title {
     font-size: 14px;
     margin-left: 6px;
   }
+  .gpa {
+	font-size: 13px;
+	color: grey; 
+  }
   .left-column, .right-column {
     flex: 1;
   }
@@ -235,6 +239,20 @@ title {
   .language-2 {
     margin-bottom: -3px;
     margin-top: 0px;
+	margin-right: auto;
+	margin-left: 60px;
+  }
+  
+   .language-4 {
+    margin-left: 40px;
+    font-size: 12px;
+    margin-top: 5px;
+    color: grey;
+  }
+  
+  .language-3 {
+    margin-bottom: -3px;
+    margin-top: 0px;
   }
   
   .language {
@@ -337,7 +355,7 @@ title {
     margin-right: 2px;
   }
   
-  @media (max-width: 600px) {
+  @media (max-width: 740px) {
     .contact-column {
       width: 100%;
       flex-direction: column;
@@ -362,4 +380,10 @@ title {
     .things-column {
       flex-direction: column;
     }
+	.language-2 {
+	  margin-left: 5px;
+	}
+	.language-4 {
+	  margin-left: 5px;
+	}
   }  
